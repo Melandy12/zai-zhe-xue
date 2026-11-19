@@ -48,6 +48,7 @@ A set of browser-automation skills for the Zhejiang online course platform **zjo
 - 讨论回复发出后别人就能看到，先看草稿再确认发送。 Replies are public; review the draft before sending.
 - 作业截图是逐份结果详情页的整页长图；待批作业显示 0 分多是老师还没批阅，不等于答错。 Screenshots are full-page captures of each result page; a pending 0 score usually means the teacher has not graded it yet, not that it is wrong.
 - 单选、多选由系统自动判分；填空由老师人工批阅。 Single/multiple-choice are auto-graded; fill-in items are graded manually.
+- **做填空前最好先准备本课程题库/标准答案**（PDF、往届答卷或截图），统一放到 `答案文件\` 目录（`E:\Doubao_AI_Output\在浙学\答案文件\`），AI 从这里读取。填空是教材原文措辞，联网搜不到答案；没有题库时 AI 不编造填空，会先做单选/多选，等你把答案放进该目录。 Fill-in items need a provided answer bank placed in the `答案文件\` folder; AI does not invent textbook wording without one.
 
 ## Files / 文件
 
